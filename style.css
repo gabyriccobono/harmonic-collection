@@ -1,3 +1,29 @@
+@import url("https://use.typekit.net/fnb4mlr.css");
+@import url("https://use.typekit.net/lnc6bec.css");
+h1{
+  font-family: "chorine-large", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: xxx-large;
+  text-align: center;
+}
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  text-align: center;
+}
 body {
   font-family: sans-serif;
+  background-color: #b3dcf0;
+}
+a {
+  text-decoration: none;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 70px;
 }

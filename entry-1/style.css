@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/fnb4mlr.css");
+a {
+    text-decoration: none;
+  }
+h1{
+    font-family: "chorine-large", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: xxx-large;
+}
+body {
+    background-color: #f9e5ca;
+}
+div{
+    text-align: center;
+}
