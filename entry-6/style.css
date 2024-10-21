@@ -1,5 +1,4 @@
 @import url("https://use.typekit.net/fnb4mlr.css");
-@import url("https://use.typekit.net/klk5qoe.css");
 a {
     text-decoration: none;
   }
@@ -13,28 +12,20 @@ h1{
 div {
     text-align: center;
 }
-.trilby-font {
-    font-family: "trilby", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 .topnav {
+    background-color: #1873ea;
     overflow: hidden;
   }
-.topnav a {
+  .topnav a {
     float: left;
-    color: black;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: "trilby", serif;
   }
-.topnav a:hover {
+  .topnav a:hover {
+      background-color: #0433aa;
       color: white;
     }
-  
-body {
-  background-color: bisque;
-}

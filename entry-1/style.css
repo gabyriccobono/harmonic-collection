@@ -22,18 +22,17 @@ div{
     font-style: normal;
   }
   .topnav {
-    background-color: #1873ea;
     overflow: hidden;
   }
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: "trilby", serif;
   }
   .topnav a:hover {
-      background-color: #0433aa;
-      color: white;
+      color: #6f2d24;
     }
