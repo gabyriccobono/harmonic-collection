@@ -95,6 +95,9 @@ input[type="radio"] {
   transform: translateX(-300%);
 }
 
+#slide5:checked ~ .slides {
+  transform: translateX(-400%);
+}
 .indicators {
     position: absolute;
     bottom: 10px;
