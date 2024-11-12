@@ -1,0 +1,124 @@
+@import url("https://use.typekit.net/fnb4mlr.css");
+@import url("https://use.typekit.net/klk5qoe.css");
+
+a {
+    text-decoration: none;
+  }
+h1{
+    font-family: "chorine-large", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 500%;
+}
+
+.font {
+  font-family: "chorine-large", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+div {
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+  }
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "trilby", serif;
+  }
+
+.topnav a:hover {
+      color: black;
+    }
+
+.trilby-font {
+      font-family: "trilby", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+body {
+  background-color: #00843d;
+}
+
+.decoration {
+  color: black;
+}
+
+.sticky-bottom {
+  position: fixed;  
+  bottom: 0;    
+  left: 0;          
+  width: 100%;   
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease; /* Smooth transition between colors */
+}
+
+/* Flashing background animation */
+@keyframes flashBackground {
+  0% {
+    background-color: #00843d;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: #00843d;
+  }
+}
+
+/* When the background is flashing */
+body.flashing {
+  animation: flashBackground 0.5s infinite; /* 1 second flash loop */
+}
+
+/* Styles for the container with buttons */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Optional: Style for buttons */
+img {
+  cursor: pointer;
+  margin: 10px;
+}
+
+img:hover {
+  transform: scale(1.3); 
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  padding: 20px; /* Adds space inside the box */
+  margin: 30px auto; /* Adds space around the box, centering it */
+  width: 50%; /* Or any width you want for the container */
+  max-width: 600px; /* Optional: limits the box to a maximum width */
+  box-sizing: border-box; /* Ensures padding is included in the element's width */
+  /* The box itself is invisible, so we don't add borders or background */
+}

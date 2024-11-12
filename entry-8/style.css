@@ -9,7 +9,7 @@ h1{
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    font-size: 350%;
+    font-size: xxx-large;
 }
 
 .font {
@@ -62,22 +62,4 @@ body {
   color: white;
   text-align: center;
   padding: 10px 0;
-}
-
-.carousel-container {
-  width: 100%;
-  max-width: 1600px; /* Container max-width, adjust as needed */
-  overflow: hidden;
-  margin: 50px auto;
-  border-radius: 10px;
-}
-
-.carousel {
-  display: flex; /* Display images in a row */
-  transition: transform 1s ease-in-out;
-}
-
-.carousel img {
-  width: 20%;  /* Each image will take up 20% of the container width (5 images visible) */
-  height: 300px;
 }

@@ -98,6 +98,15 @@ input[type="radio"] {
 #slide5:checked ~ .slides {
   transform: translateX(-400%);
 }
+
+#slide6:checked ~ .slides {
+  transform: translateX(-500%);
+}
+
+#slide7:checked ~ .slides {
+  transform: translateX(-600%);
+}
+
 .indicators {
     position: absolute;
     bottom: 10px;
