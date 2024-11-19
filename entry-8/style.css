@@ -63,3 +63,42 @@ body {
   text-align: center;
   padding: 10px 0;
 }
+
+.container {
+  text-align: center;
+}
+
+.glass {
+  position: relative;
+  width: 150px;
+  height: 300px;
+  border: 5px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.water {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #00b0ff;
+  transition: height 0.1s ease-out;
+}
+
+.oscar {
+  font-size: 100px;
+  display: inline-block;
+  margin-top: 20px;
+  visibility: hidden;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
