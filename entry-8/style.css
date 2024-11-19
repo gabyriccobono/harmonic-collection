@@ -12,6 +12,9 @@ h1{
     font-size: xxx-large;
 }
 
+p {
+  color: white;
+}
 .font {
   font-family: "chorine-large", sans-serif;
   font-weight: 600;
@@ -45,13 +48,11 @@ div {
     }
 
 body {
-  background-color: lightblue;
+  background-color: black;
 }
 
 .decoration {
-  color: #597aa2;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  color: gold;
 }
 
 .sticky-bottom {
@@ -65,27 +66,39 @@ body {
 }
 
 .container {
+  position: relative;
   text-align: center;
+}
+
+#center {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
 
 .glass {
   position: relative;
   width: 150px;
   height: 300px;
-  border: 5px solid #000;
-  border-radius: 10px;
-  background-color: #fff;
+  border-radius: 20px 20px 10px 10px;  /* Rounded top edges */
+  border: 5px solid #b0b0b0; /* Light gray border */
+  background: linear-gradient(to top, #e0e0e0, #ffffff); /* Glass effect */
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Shadow to simulate depth */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .water {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 0;
+  height: 0; /* Initial water height */
   background-color: #00b0ff;
   transition: height 0.1s ease-out;
+  border-radius: 0 0 20px 20px;  /* Rounded bottom edges for water */
 }
 
 .oscar {
@@ -102,3 +115,4 @@ body {
 .visible {
   visibility: visible;
 }
+
