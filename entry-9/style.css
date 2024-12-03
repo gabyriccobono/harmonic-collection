@@ -13,7 +13,7 @@ h1{
 }
 
 p {
-  color: white;
+  color: black;
 }
 .font {
   font-family: "chorine-large", sans-serif;
@@ -56,7 +56,6 @@ div {
   bottom: 0;    
   left: 0;          
   width: 100%;   
-  color: white;
   text-align: center;
   padding: 10px 0;
 }
@@ -70,4 +69,31 @@ div {
   color: white;
   font-family: Arial, sans-serif;
   font-size: 2em;
+}
+
+.text-container {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.translated-text {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.translation-toggle-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.translation-toggle-btn:hover {
+  background-color: #0056b3;
 }

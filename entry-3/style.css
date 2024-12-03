@@ -20,7 +20,7 @@ div {
   }
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: royalblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +28,7 @@ div {
     font-family: "trilby", serif;
   }
 .topnav a:hover {
-      color: white;
+      color: black;
     }
 
 .trilby-font {
@@ -45,4 +45,13 @@ div {
       color: white;
       text-align: center;
       padding: 10px 0;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-top: 70px;
     }
