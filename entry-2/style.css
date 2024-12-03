@@ -39,11 +39,12 @@ body {
   background-color: bisque;
 }
 
-.text-box {
-  padding: 20px; /* Adds spacing inside the box */
-  max-width: 400px; /* Restricts the width of the box */
-  text-align: center; /* Centers the text */
-  color: black; /* Text color */
-  line-height: 1.6; /* Improves readability */
-  margin: 10px; /* Adds spacing outside the box */
+.two-columns {
+  column-count: 2; /* Specifies the number of columns */
+  column-gap: 30px; /* Adds space between the columns */
+  column-fill: balance;
+  text-align: left; /* Ensures the text is left-aligned */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
 }

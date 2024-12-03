@@ -1,17 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const toggleButton = document.querySelector('.translation-toggle-btn');
-    const originalText = document.querySelector('.original-text');
-    const translatedText = document.querySelector('.translated-text');
+    const toggleButtons = document.querySelectorAll('.translation-toggle-btn');
 
-    toggleButton.addEventListener('click', () => {
-        if (translatedText.hidden) {
-            translatedText.hidden = false;
-            originalText.hidden = true;
-            toggleButton.textContent = 'See Original';
-        } else {
-            translatedText.hidden = true;
-            originalText.hidden = false;
-            toggleButton.textContent = 'See Translation';
-        }
+    toggleButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            const textBlock = button.closest('.text-block');
+            const originalText = textBlock.querySelector('.original-text');
+            const translatedText = textBlock.querySelector('.translated-text');
+
+            if (translatedText.hidden) {
+                translatedText.hidden = false;
+                originalText.hidden = true;
+                button.textContent = 'See Original';
+            } else {
+                translatedText.hidden = true;
+                originalText.hidden = false;
+                button.textContent = 'See Translation';
+            }
+        });
     });
 });
