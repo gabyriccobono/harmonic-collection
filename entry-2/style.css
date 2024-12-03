@@ -43,7 +43,7 @@ body {
   column-count: 2; /* Specifies the number of columns */
   column-gap: 30px; /* Adds space between the columns */
   column-fill: balance;
-  text-align: left; /* Ensures the text is left-aligned */
+  text-align: center; /* Ensures the text is left-aligned */
   padding: 20px;
   margin: 0 auto;
   max-width: 1200px;
